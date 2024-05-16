@@ -9099,39 +9099,39 @@ var _WheelOptionList = class _WheelOptionList extends Array {
 };
 _WheelOptionList.DEFAULT_NEW_OPTION_TITLE = "New";
 _WheelOptionList.DEFAULT_OPTIONS = [{
-  title: `:first-default-option-label:The Address 15%`,
+  title: "The Address 15%",
   backgroundColor: DEFAULT_COLORS[0 % DEFAULT_COLORS.length],
   textColor: DEFAULT_TEXT_COLORS[0 % DEFAULT_TEXT_COLORS.length]
 }, {
-  title: `:second-default-option-label:Mirot Hotel 15%`,
+  title: "Mirot Hotel 15%",
   backgroundColor: DEFAULT_COLORS[1 % DEFAULT_COLORS.length],
   textColor: DEFAULT_TEXT_COLORS[1 % DEFAULT_TEXT_COLORS.length]
 }, {
-  title: `:third-default-option-label:Karim Makka 15%`,
+  title: "Karim Makka 15%",
   backgroundColor: DEFAULT_COLORS[2 % DEFAULT_COLORS.length],
   textColor: DEFAULT_TEXT_COLORS[2 % DEFAULT_TEXT_COLORS.length]
 }, {
-  title: `:fourth-default-option-label:The Address 25%`,
+  title: "The Address 25%",
   backgroundColor: DEFAULT_COLORS[3 % DEFAULT_COLORS.length],
   textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length]
 }, {
-  title: `:third-default-option-label:Mirot Hotel 25%`,
+  title: "Mirot Hotel 25%",
   backgroundColor: DEFAULT_COLORS[2 % DEFAULT_COLORS.length],
   textColor: DEFAULT_TEXT_COLORS[2 % DEFAULT_TEXT_COLORS.length]
 }, {
-  title: `:fourth-default-option-label:Karim Makka 25%`,
+  title: "Karim Makka 25%",
   backgroundColor: DEFAULT_COLORS[3 % DEFAULT_COLORS.length],
   textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length]
 }, {
-  title: `:fourth-default-option-label:The Address Free night`,
+  title: "The Address Free night",
   backgroundColor: DEFAULT_COLORS[3 % DEFAULT_COLORS.length],
   textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length]
 }, {
-  title: `:third-default-option-label:Mirot Hotel Free night`,
+  title: "Mirot Hotel Free night",
   backgroundColor: DEFAULT_COLORS[2 % DEFAULT_COLORS.length],
   textColor: DEFAULT_TEXT_COLORS[2 % DEFAULT_TEXT_COLORS.length]
 }, {
-  title: `:fourth-default-option-label:Karim Makka Free night`,
+  title: "Karim Makka Free night",
   backgroundColor: DEFAULT_COLORS[3 % DEFAULT_COLORS.length],
   textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length]
 }];

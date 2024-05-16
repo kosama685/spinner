@@ -272,6 +272,87 @@
         </context-group>
         <note priority="1" from="description">fourth-default-option-label</note>
       </trans-unit>
+       <trans-unit id="1939829759587137931" datatype="html">
+        <source>The Address 15%</source>
+        <target>The Address 15%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">first-default-option-label</note>
+      </trans-unit>
+      <trans-unit id="690372218693664043" datatype="html">
+        <source>Mirot Hotel 15%</source>
+        <target>Mirot Hotel 15%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">first-default-option-label</note>
+      </trans-unit>
+          <trans-unit id="1642956870201973461" datatype="html">
+        <source>Karim Makka 15%</source>
+        <target>Karim Makka 15%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">first-default-option-label</note>
+      </trans-unit>
+      <trans-unit id="4536069078552892523" datatype="html">
+        <source>The Address 25%</source>
+        <target>The Address 25%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <note priority="1" from="description">first-default-option-label</note>
+      </trans-unit>
+       <trans-unit id="4946684091854612806" datatype="html">
+        <source>Mirot Hotel 25%</source>
+        <target>Mirot Hotel 25%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <note priority="1" from="description">first-default-option-label</note>
+      </trans-unit>
+             <trans-unit id="446505611733453803" datatype="html">
+        <source>Karim Makka 25%</source>
+        <target>Karim Makka 25%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <note priority="1" from="description">first-default-option-label</note>
+      </trans-unit>
+      <trans-unit id="1237231625802067019" datatype="html">
+        <source>The Address Free night</source>
+        <target>The Address Free night</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <note priority="1" from="description">first-default-option-label</note>
+      </trans-unit>
+            <trans-unit id="6072748947128227676" datatype="html">
+        <source>Mirot Hotel Free night</source>
+        <target>Mirot Hotel Free night</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <note priority="1" from="description">first-default-option-label</note>
+      </trans-unit>
+      <trans-unit id="8447013844564590210" datatype="html">
+        <source>Karim Makka Free night</source>
+        <target>Karim Makka Free night</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <note priority="1" from="description">first-default-option-label</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
