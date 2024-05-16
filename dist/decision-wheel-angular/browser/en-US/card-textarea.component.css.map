@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/card-textarea/C:/Users/Usama/Pictures/decision-wheel-angular-main/decision-wheel-angular-main/spinner/src/app/components/card-textarea/card-textarea.component.less"],
+  "sourcesContent": [":host {\n  display: flex;\n  flex: 1;\n  width: 100%;\n}\n\n\nform {\n  width: 100%;\n\n  mat-form-field {\n    width: 100%;\n    height: 100%;\n    //font-family: \"Vibur\", cursive;\n    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;\n    font-size: 25px;\n\n    &::part('.mat-mdc-text-field-wrapper') {\n      background: transparent !important;\n    }\n  }\n}\n\n"],
+  "mappings": ";AAAA;AACE,WAAA;AACA,QAAA;AACA,SAAA;;AAIF;AACE,SAAA;;AADF,KAGE;AACE,SAAA;AACA,UAAA;AAEA;IAAa,aAAA;IAAe,qBAAA;IAAuB,eAAA;IAAiB,qBAAA;IAAA,MAAA;IAAA,OAAA;IAAA;AACpE,aAAA;;AAEA,KAPF,cAOG,OAAM;AACL,cAAA;;",
+  "names": []
+}

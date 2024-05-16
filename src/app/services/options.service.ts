@@ -13,47 +13,47 @@ export class WheelOptionList extends Array<WheelOption> {
 
   static DEFAULT_OPTIONS: WheelOption[] = [
     {
-      title: $localize`:first-default-option-label:The Address 15%`,
+      title: `:first-default-option-label:The Address 15%`,
       backgroundColor: DEFAULT_COLORS[0 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[0 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize`:second-default-option-label:Mirot Hotel 15%`,
+      title: `:second-default-option-label:Mirot Hotel 15%`,
       backgroundColor: DEFAULT_COLORS[1 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[1 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize`:third-default-option-label:Karim Makka 15%`,
+      title: `:third-default-option-label:Karim Makka 15%`,
       backgroundColor: DEFAULT_COLORS[2 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[2 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize`:fourth-default-option-label:The Address 25%`,
+      title: `:fourth-default-option-label:The Address 25%`,
       backgroundColor: DEFAULT_COLORS[3 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize`:third-default-option-label:Mirot Hotel 25%`,
+      title: `:third-default-option-label:Mirot Hotel 25%`,
       backgroundColor: DEFAULT_COLORS[2 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[2 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize`:fourth-default-option-label:Karim Makka 25%`,
+      title: `:fourth-default-option-label:Karim Makka 25%`,
       backgroundColor: DEFAULT_COLORS[3 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize`:fourth-default-option-label:The Address Free night`,
+      title: `:fourth-default-option-label:The Address Free night`,
       backgroundColor: DEFAULT_COLORS[3 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize`:third-default-option-label:Mirot Hotel Free night`,
+      title: `:third-default-option-label:Mirot Hotel Free night`,
       backgroundColor: DEFAULT_COLORS[2 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[2 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize`:fourth-default-option-label:Karim Makka Free night`,
+      title: `:fourth-default-option-label:Karim Makka Free night`,
       backgroundColor: DEFAULT_COLORS[3 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length],
     },

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/C:/Users/Usama/Pictures/decision-wheel-angular-main/decision-wheel-angular-main/spinner/src/app/app.component.less"],
+  "sourcesContent": [".app-container {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  padding: 40px;\n  box-sizing: border-box;\n  background-size: 100% 100%;\nbackground: url(\"../assets/newlogo.png\") top center no-repeat ;\n  background-color: #f0f1e7;\n  // background: linear-gradient(0deg, rgba(57, 22, 86, 1) 4%, rgba(65, 21, 103, 1) 11%, rgba(57, 22, 88, 1) 18%, rgba(41, 15, 62, 1) 20%, rgba(40, 14, 59, 1) 47%, rgba(92, 36, 123, 1) 100%) !important;\n}\n\n\n@media (min-width: 0px) and (max-width: 769px){\n  .app-container{\n    flex-direction: column;\n    padding: 140px;\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,SAAA;AACA,UAAA;AACA,WAAA;AACA,mBAAA;AACA,eAAA;AACA,WAAA;AACA,cAAA;AACA,mBAAA,KAAA;AACF,cAAA,2BAAgB,IAAA,OAAA;AACd,oBAAA;;AAKF,OAAA,CAAwB,SAAA,EAAA,KAAA,IAAA,CAAsB,SAAA,EAAA;AAC5C,GAhBF;AAiBI,oBAAA;AACA,aAAA;;;",
+  "names": []
+}
