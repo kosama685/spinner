@@ -1,0 +1,31 @@
+<!-- <button (click)="onMuteToggle()"
+        color="primary"
+        i18n-matTooltip="{{isMuted ? 'mute-toggle-button-enable-sounds' : 'mute-toggle-button-mute'}}"
+        mat-mini-fab
+        matTooltip="{{isMuted ? 'Enable sounds' : 'Mute'}}"> -->
+<!-- <mat-icon>{{isMuted ? "volume_up" : "volume_off"}}</mat-icon> -->
+
+<button
+  (click)="openFullscreen()"
+  color="primary"
+  i18n-matTooltip="
+    {{isMuted ? 'mute-toggle-button-enable-sounds' : 'mute-toggle-button-mute'}}
+  "
+  mat-mini-fab
+  matTooltip="{{ isMuted ? 'Enable sounds' : 'Mute' }}"
+  *ngIf="isFullScreen == false">
+  <mat-icon class="screen">fullscreen</mat-icon>
+</button>
+<button
+  (click)="closeFullscreen()"
+  color="primary"
+  i18n-matTooltip="
+    {{isMuted ? 'mute-toggle-button-enable-sounds' : 'mute-toggle-button-mute'}}
+  "
+  mat-mini-fab
+  matTooltip="{{ isMuted ? 'Enable sounds' : 'Mute' }}"
+  *ngIf="isFullScreen">
+  <mat-icon class="screen">fullscreen_exit</mat-icon>
+</button>
+
+<!-- </button> -->

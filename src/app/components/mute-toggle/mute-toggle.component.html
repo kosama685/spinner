@@ -1,0 +1,7 @@
+<button (click)="onMuteToggle()"
+        color="primary"
+        i18n-matTooltip="{{isMuted ? 'mute-toggle-button-enable-sounds' : 'mute-toggle-button-mute'}}"
+        mat-mini-fab
+        matTooltip="{{isMuted ? 'Enable sounds' : 'Mute'}}">
+  <mat-icon>{{isMuted ? "volume_up" : "volume_off"}}</mat-icon>
+</button>

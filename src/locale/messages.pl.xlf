@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8775951285386169440" datatype="html">
+        <source>Add new wheel option</source>
+        <target>Dodaj nową opcję</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/advanced-view/card-option-advanced-add/card-option-advanced-add.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+        <note priority="1" from="description">add-new-wheel-option-aria-label</note>
+      </trans-unit>
+      <trans-unit id="8025963579466502575" datatype="html">
+        <source>Add new option</source>
+        <target>Dodaj nową opcję</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/advanced-view/card-option-advanced-add/card-option-advanced-add.component.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+        <note priority="1" from="description">add-new-wheel-option-tooltip</note>
+      </trans-unit>
+      <trans-unit id="1890864051502615624" datatype="html">
+        <source>Enter non-empty option...</source>
+        <source>Wpisz cokolwiek...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/advanced-view/card-option-advanced-edit/card-option-advanced-edit.component.html</context>
+          <context context-type="linenumber">4,9</context>
+        </context-group>
+        <note priority="1" from="description">wheel-option-advanced-edit-input-placeholder</note>
+      </trans-unit>
+      <trans-unit id="7000649363168371045" datatype="html">
+        <source>Save changes</source>
+        <target>Zapisz zmiany</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/advanced-view/card-option-advanced-edit/card-option-advanced-edit.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+        <note priority="1" from="description">edit-wheel-option-save-changes-aria-label</note>
+      </trans-unit>
+      <trans-unit id="4747541873741984501" datatype="html">
+        <source>Close edit mode</source>
+        <target>Zamknij tryb edycji</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/advanced-view/card-option-advanced-edit/card-option-advanced-edit.component.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+        <note priority="1" from="description">edit-wheel-option-close-aria-label</note>
+      </trans-unit>
+      <trans-unit id="7250009690449697469" datatype="html">
+        <source>Move around wheel option</source>
+        <target>Przesuń</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/advanced-view/card-option-advanced/card-option-advanced.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+        <note priority="1" from="description">dd-wheel-option-aria-label</note>
+      </trans-unit>
+      <trans-unit id="2982657439210659668" datatype="html">
+        <source>Change color</source>
+        <target>Zmień kolor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/advanced-view/card-option-advanced/card-option-advanced.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+        <note priority="1" from="description">color-picker-tootlip</note>
+      </trans-unit>
+      <trans-unit id="7277751396068918432" datatype="html">
+        <source>Edit wheel option</source>
+        <target>Edytuj</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/advanced-view/card-option-advanced/card-option-advanced.component.html</context>
+          <context context-type="linenumber">30,32</context>
+        </context-group>
+        <note priority="1" from="description">edit-wheel-option-aria-label</note>
+      </trans-unit>
+      <trans-unit id="6041115344061899387" datatype="html">
+        <source>Rename</source>
+        <target>Zmień nazwę</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/advanced-view/card-option-advanced/card-option-advanced.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+        <note priority="1" from="description">edit-wheel-option-aria-tooltip</note>
+      </trans-unit>
+      <trans-unit id="1630310094948366818" datatype="html">
+        <source>Duplicate option</source>
+        <target>Zduplikuj</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/advanced-view/card-option-advanced/card-option-advanced.component.html</context>
+          <context context-type="linenumber">40,42</context>
+        </context-group>
+        <note priority="1" from="description">duplicate-wheel-option-aria-label</note>
+      </trans-unit>
+      <trans-unit id="6621329748219109148" datatype="html">
+        <source>Duplicate</source>
+        <target>Zduplikuj</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/advanced-view/card-option-advanced/card-option-advanced.component.html</context>
+          <context context-type="linenumber">45,47</context>
+        </context-group>
+        <note priority="1" from="description">duplicate-wheel-option-aria-tooltip</note>
+      </trans-unit>
+      <trans-unit id="1317664955050415826" datatype="html">
+        <source>Delete wheel option</source>
+        <target>Usuń</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/advanced-view/card-option-advanced/card-option-advanced.component.html</context>
+          <context context-type="linenumber">50,52</context>
+        </context-group>
+        <note priority="1" from="description">delete-wheel-option-aria-label</note>
+      </trans-unit>
+      <trans-unit id="4814285799071780083" datatype="html">
+        <source>Remove</source>
+        <target>Usuń</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/advanced-view/card-option-advanced/card-option-advanced.component.html</context>
+          <context context-type="linenumber">56,57</context>
+        </context-group>
+        <note priority="1" from="description">delete-wheel-option-aria-tooltip</note>
+      </trans-unit>
+      <trans-unit id="4329818902558675594" datatype="html">
+        <source>options</source>
+        <target>dodane</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card-options-list/card-options-list.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+        <note priority="1" from="description">Options span label</note>
+        <note priority="1" from="meaning">card-options</note>
+      </trans-unit>
+      <trans-unit id="4097253900819973817" datatype="html">
+        <source>added</source>
+        <target>opcje</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card-options-list/card-options-list.component.html</context>
+          <context context-type="linenumber">9,12</context>
+        </context-group>
+        <note priority="1" from="description">Options span added label</note>
+        <note priority="1" from="meaning">card-option-added</note>
+      </trans-unit>
+      <trans-unit id="5963114224801418185" datatype="html">
+        <source>Shuffle options</source>
+        <target>Zmień kolejność</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card-options-list/card-options-list.component.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+        <note priority="1" from="description">Label for toggle button that shuffle options</note>
+        <note priority="1" from="meaning">shuffle-options-button</note>
+      </trans-unit>
+      <trans-unit id="6185852766259411057" datatype="html">
+        <source>Shuffle</source>
+        <target>Zmień kolejność</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card-options-list/card-options-list.component.html</context>
+          <context context-type="linenumber">17,20</context>
+        </context-group>
+        <note priority="1" from="description">Tooltip for toggle button that shuffle options</note>
+        <note priority="1" from="meaning">shuffle-options-tooltip</note>
+      </trans-unit>
+      <trans-unit id="1368524072997813490" datatype="html">
+        <source>Advanced mode </source>
+        <target>Tryb zaawansowany</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card-options-list/card-options-list.component.html</context>
+          <context context-type="linenumber">24,27</context>
+        </context-group>
+        <note priority="1" from="description">Advanced checkbox label</note>
+        <note priority="1" from="meaning">advanced-mode</note>
+      </trans-unit>
+      <trans-unit id="5603794040110019850" datatype="html">
+        <source>Enter options</source>
+        <target>Dodaj opcje...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card-textarea/card-textarea.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+        <note priority="1" from="description">Placeholder for options textarea</note>
+        <note priority="1" from="meaning">card-textarea-placeholder</note>
+      </trans-unit>
+      <trans-unit id="1822348164229998210" datatype="html">
+        <source>Minimum options number is <x id="INTERPOLATION" equiv-text="{{MIN_OPTIONS_NUMBER}}"/></source>
+        <target>Minimalna ilość opcji to <x id="INTERPOLATION" equiv-text="{{MIN_OPTIONS_NUMBER}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card-textarea/card-textarea.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+        <note priority="1" from="description">Label for error when minimum items condition is not fulfilled</note>
+        <note priority="1" from="meaning">card-error-min-options</note>
+      </trans-unit>
+      <trans-unit id="5964914617308183576" datatype="html">
+        <source>Maximum options number is <x id="INTERPOLATION" equiv-text="{{MAX_OPTIONS_NUMBER}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/card-textarea/card-textarea.component.html</context>
+          <context context-type="linenumber">12,15</context>
+        </context-group>
+        <note priority="1" from="description">Label for error when maximum items condition is not fulfilled</note>
+        <note priority="1" from="meaning">card-error-max-options</note>
+      </trans-unit>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{isMuted ? &apos;Enable sounds&apos; : &apos;Mute&apos;}}"/></source>
+        <target><x id="INTERPOLATION" equiv-text="{{isMuted ? &apos;Włącz dźwięki&apos; : &apos;Wycisz&apos;}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/mute-toggle/mute-toggle.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+        <note priority="1" from="description">{{isMuted ? &apos;mute-toggle-button-enable-sounds&apos; : &apos;mute-toggle-button-mute&apos;}}</note>
+      </trans-unit>
+      <trans-unit id="7609698471840777359" datatype="html">
+        <source> And the Oscar goes to...</source>
+        <target>Zwyciężył...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/winner-option-notification/winner-option-notification.component.html</context>
+          <context context-type="linenumber">2,5</context>
+        </context-group>
+        <note priority="1" from="description">Notification header label, shown when option was chosen</note>
+        <note priority="1" from="meaning">winner-option-notification-header</note>
+      </trans-unit>
+      <trans-unit id="1856762088061848171" datatype="html">
+        <source>Close </source>
+        <target>Zamknij</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/winner-option-notification/winner-option-notification.component.html</context>
+          <context context-type="linenumber">10,12</context>
+        </context-group>
+        <note priority="1" from="description">Close winner notification</note>
+        <note priority="1" from="meaning">winner-option-notification-header-close-button</note>
+      </trans-unit>
+      <trans-unit id="5280218112746407598" datatype="html">
+        <source>New</source>
+        <target>Nowa opcja</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">new-option-title</note>
+      </trans-unit>
+      <trans-unit id="9185516472514098332" datatype="html">
+        <source>pizza</source>
+        <target>pizza</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">first-default-option-label</note>
+      </trans-unit>
+      <trans-unit id="1557675752195711580" datatype="html">
+        <source>pasta</source>
+        <target>makaron</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">second-default-option-label</note>
+      </trans-unit>
+      <trans-unit id="2334258187437658877" datatype="html">
+        <source>ramen</source>
+        <target>ramen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">third-default-option-label</note>
+      </trans-unit>
+      <trans-unit id="3046034778558374890" datatype="html">
+        <source>sushi</source>
+        <target>sushi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <note priority="1" from="description">fourth-default-option-label</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,21 @@
+<form [formGroup]="form" class="form-field-inline">
+  <mat-form-field class="example-full-width">
+    <input formControlName="titleControl" i18n-placeholder="wheel-option-advanced-edit-input-placeholder"
+           matInput placeholder="Enter non-empty option...">
+  </mat-form-field>
+</form>
+
+<div>
+  <button (click)="onEditSave()" aria-label="Save changes"
+          color=""
+          i18n-aria-label="edit-wheel-option-save-changes-aria-label"
+          mat-mini-fab>
+    <mat-icon>done</mat-icon>
+  </button>
+  <button (click)="onEditCancel()" aria-label="Close edit mode"
+          color=""
+          i18n-aria-label="edit-wheel-option-close-aria-label"
+          mat-mini-fab>
+    <mat-icon>close</mat-icon>
+  </button>
+</div>

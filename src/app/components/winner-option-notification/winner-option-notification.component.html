@@ -1,0 +1,11 @@
+<h2 i18n="winner-option-notification-header|Notification header label, shown when option was chosen" mat-dialog-title>
+  And the Oscar goes to...</h2>
+<mat-dialog-content>
+  <p class="winner-title">{{data.winner.title}}</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button [mat-dialog-close]="" cdkFocusInitial
+          i18n="winner-option-notification-header-close-button|Close winner notification"
+          mat-button>Close
+  </button>
+</mat-dialog-actions>

@@ -1,0 +1,28 @@
+<div [ngClass]="{'disabled': isDisabled, 'container': true}">
+  <div (click)="onSpin()" (keydown)="onSpin()" [class]="'rotate'" [style.transform]="'rotate(' + (rotationDegrees) + 'deg)'"
+       tabindex="0">
+    <div class="circles-container">
+      <div *ngFor="let circle of circles; index as i"
+           [style.transform]="'rotate(' + (i * (360 / circles.length)) + 'deg)'"
+           class="circle"></div>
+    </div>
+    <div class="options-container">
+      <app-wheel-option *ngFor="let option of (options | async); index as i"
+                        [backgroundColor]="option.backgroundColor"
+                        [index]="i"
+                        [optionsSize]="(options | async)?.length ?? 0"
+                        [textColor]="option.textColor"
+                        [title]="option.title"
+                        class="option"></app-wheel-option>
+    </div>
+  </div>
+
+  <div class="star-container"></div>
+  <div class="top-pointer-container">
+    <div class="top-pointer"></div>
+  </div>
+</div>
+<div class="footer-container">
+  <div class="footer"></div>
+  <div class="bottom"></div>
+</div>

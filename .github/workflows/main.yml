@@ -1,0 +1,27 @@
+name: Regular health check
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x.x
+          cache: npm
+      - name: Install
+        run: npm ci
+      - name: Build
+        run: npm run build -- -c production --base-href "https://aszlacheta.github.io/decision-wheel-angular"
+      - name: Linting
+        run: npm run lint
+      - name: Unit tests
+        run: npm run test-headless

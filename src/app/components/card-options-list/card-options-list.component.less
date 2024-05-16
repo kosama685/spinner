@@ -1,0 +1,132 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  margin-left: 5%;
+
+}
+
+.options-list-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  width: 100%;
+  height: 80%;
+  min-height: 500px;
+
+  .options-list-roll {
+    z-index: 10;
+    width: 102%;
+    min-height: 60px;
+    height: 60px;
+    margin-left: -1%;
+    border-radius: 10px;
+
+    box-shadow: 2px 2px 40px rgba(86, 86, 86, 0.7);
+    background: rgb(208, 211, 216);
+    background: linear-gradient(180deg, rgba(208, 211, 216, 1) 12%, rgba(216, 217, 222, 1) 49%, rgba(191, 192, 197, 1) 90%);
+  }
+
+  .options-list-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-height: calc(100% - 60px);
+    //overflow: hidden;
+    padding: 20px;
+    margin-top: -5px;
+    border-radius: 5px;
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.3);
+    background: rgb(234, 235, 239);
+    background: linear-gradient(90deg, rgba(234, 235, 239, 1) 0%, rgba(206, 209, 214, 1) 100%);
+
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: -70px;
+
+      opacity: 0.7;
+    }
+
+    &:before {
+      left: -100px;
+      background: url('../../../assets/img.png') top left no-repeat;
+      transform: rotate(20deg);
+    }
+
+    &:after {
+      right: -90px;
+      background: url('../../../assets/img.png') top left no-repeat;
+      transform: scaleX(-1) rotate(15deg);
+    }
+
+    .options-list-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+
+      font-size: 14px;
+
+      .options-list-header-options-summary {
+        display: flex;
+        align-items: center;
+
+        .number {
+          font-size: 50px;
+          line-height: 50px;
+          margin-right: 10px;
+        }
+
+        .title {
+          > span {
+            display: block;
+            line-height: 15px;
+            letter-spacing: 4px;
+
+            &:first-child {
+              font-weight: bold;
+              letter-spacing: 0;
+            }
+          }
+        }
+      }
+
+      .options-list-advanced-checkbox {
+        width: 100px;
+        z-index: 1;
+      }
+
+      .shuffle-button {
+        position: relative;
+        z-index: 1;
+      }
+    }
+
+    form, .options-list-items {
+      position: relative;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      z-index: 100;
+      //overflow: auto;
+    }
+  }
+}
+@media (min-width: 0px) and (max-width: 769px){
+  :host {
+    margin-top: 200px;
+    display: none;
+  }
+
+}

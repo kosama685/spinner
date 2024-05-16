@@ -1,0 +1,6 @@
+<div (cdkDropListDropped)="onDrop($event)" cdkDropList class="advanced-list-container">
+  <app-card-option-advanced *ngFor="let option of options | async; index as i"
+                            [backgroundColor]="option.backgroundColor" [index]="i"
+                            [title]="option.title"
+  ></app-card-option-advanced>
+</div>

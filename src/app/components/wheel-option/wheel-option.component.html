@@ -1,0 +1,8 @@
+<div [attr.data-option]=index
+     [style.background-color]="backgroundColor"
+     [style.transform]="optionsSize > 2 && 'rotate(' + (rotateValue) + 'deg) skewY(' + (skewValue) +'deg)'"
+     class="option">
+  <div
+    [style.color]="textColor"
+    [style.transform]="optionsSize > 2 &&'skewY(' + (titleSkewValue) +'deg) rotate(' + (angle / 2) + 'deg) '">{{trimmedText}}</div>
+</div>

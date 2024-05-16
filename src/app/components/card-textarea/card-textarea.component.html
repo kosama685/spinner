@@ -1,0 +1,16 @@
+<form [formGroup]="form">
+  <mat-form-field class="options">
+    <textarea cdkTextareaAutosize formControlName="options"
+              i18n-placeholder="card-textarea-placeholder|Placeholder for options textarea" matInput
+              placeholder="Enter options"></textarea>
+    <mat-error *ngIf="(form.controls.options.hasError('min'))"
+               i18n="card-error-min-options|Label for error when minimum items condition is not fulfilled">Minimum
+      options
+      number is {{MIN_OPTIONS_NUMBER}}</mat-error>
+    <mat-error *ngIf="(form.controls.options.hasError('max'))"
+               i18n="card-error-max-options|Label for error when maximum items condition is not fulfilled">Maximum
+      options number
+      is {{MAX_OPTIONS_NUMBER}}</mat-error>
+
+  </mat-form-field>
+</form>

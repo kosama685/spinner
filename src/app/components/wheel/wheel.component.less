@@ -1,0 +1,214 @@
+@import (reference) "../../../variables.less";
+
+.container {
+  position: relative;
+  display: flex;
+  flex: 1;
+  width: @wheel-radius*1px;
+  height: @wheel-radius*1px;
+  border-radius: 250px;
+  justify-content: center;
+  z-index: 1;
+
+  background-color: @red;
+  background: linear-gradient(180deg, #0ba7a3, #65a8a5);
+  // box-shadow: 0px -1px 2px 2px #ffba94, 0px 10px 20px 2px #2f2b2b, 0px 0px 250px #984fc1;
+box-shadow: 0px -1px 2px 2px #ffba94,    0px 10px 20px 2px #65a8a5,    0px 0px 250px #0ba7a3;
+  &.disabled {
+    background: gray;
+    cursor: not-allowed;
+
+    .rotate {
+      cursor: not-allowed;
+    }
+  }
+
+  .rotate {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 4s ease-in-out;
+
+    &:hover {
+      transform: rotate(180deg);
+    }
+  }
+
+  .options-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex: 1;
+    margin: 25px;
+    border-radius: 250px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 45%;
+      box-shadow: 0 0 30px inset black;
+    }
+  }
+
+  .circles-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    .circle {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      transform-origin: bottom right;
+
+      &:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+
+        background-color: @gold;
+        box-shadow: 1px 2px 4px #2a2a2a;
+      }
+
+      &:nth-child(2n):after {
+        background: linear-gradient(140deg, #fff6b0, #eec959);
+      }
+
+      &:nth-child(2n + 1):after {
+        background: linear-gradient(140deg, #fff2e6, #f0876a, #ffc9b8);
+      }
+    }
+  }
+
+  .star-container {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+
+    background: @darkGold;
+    background: @goldGradient;
+    box-shadow: 1px 2px 7px #232323, 0 0 1px 1px inset rgba(255, 215, 0, 0.4);
+  }
+
+  .top-pointer-container {
+    position: absolute;
+    top: -10px;
+    filter: drop-shadow(1px 3px 5px #232323) drop-shadow(0 0 1px rgba(255, 215, 0, 0.4));
+
+    .top-pointer {
+      clip-path: polygon(0 0, 100% 0, 50% 100%);
+      width: 40px;
+      height: 60px;
+
+      background: @darkGold;
+      background: @goldGradient;
+    }
+
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      width: 5px;
+      height: 11px;
+      top: 0;
+    }
+
+    &:before {
+      left: -1px;
+      clip-path: polygon(0 100%, 0 0, 50% 0%, 100% 100%);
+      background: @darkGold;
+    }
+
+    &:after {
+      right: -1px;
+      clip-path: polygon(0 100%, 80% 0, 100% 0, 100% 100%);
+      background: @veryDarkGold;
+    }
+  }
+}
+
+.footer-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  z-index: 0;
+
+  .footer {
+    width: 300px;
+    height: 100px;
+    clip-path: polygon(25% 0, 20% 45%, 15% 60%, 6% 80%, 0 100%, 100% 100%, 94% 80%, 85% 60%, 80% 45%, 75% 0);
+
+    background: @red;
+    // background: linear-gradient(180deg, #360400, #590200, #6b0100, #630301, #5a0300);
+    background: linear-gradient(180deg, #360400, #0ba7a3, #0ba7a3, #0ba7a3, #0ba7a3);
+  }
+
+  .bottom {
+    position: relative;
+    height: 10px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 15px #171717;
+
+    background: @red;
+    background: linear-gradient(180deg, #0ba7a3, #65a8a5);
+
+    // reflection
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -38px;
+
+      height: 20px;
+      width: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      background: @red;
+      background: linear-gradient(180deg, #d23b3b, #8c0e09);
+      transform: rotatex(180deg) translatey(15px);
+      mask-image: linear-gradient(transparent 0%, white 80%);
+      opacity: 0.3;
+    }
+  }
+
+  // shadow
+  &:before {
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 60px;
+    bottom: -10px;
+    left: -5%;
+    border-radius: 100px;
+
+    background-color: rgba(0, 0, 0, 0.3);
+    filter: blur(15px);
+  }
+}
+@media (min-width: 0px) and (max-width: 769px){
+  .app-container{
+    flex-direction: column;
+    padding: 140px;
+  }
+  .container{
+    width: 340px;
+    height: 340px;
+  }
+
+}

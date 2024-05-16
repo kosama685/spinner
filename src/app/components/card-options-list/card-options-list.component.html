@@ -1,0 +1,36 @@
+<div class="options-list-container">
+  <div class="options-list-roll"></div>
+  <div class="options-list-content">
+    <div class="options-list-header">
+      <div class="options-list-header-options-summary">
+        <span class="number">{{(options | async)?.length ?? '-'}}</span>
+        <span class="title">
+          <span i18n="card-options|Options span label">options</span>
+          <span i18n="card-option-added|Options span added label">added</span>
+        </span>
+      </div>
+      <button (click)="onShuffle()" [disabled]="(optionsService.isSpinning | async)"
+              aria-label="Shuffle options"
+              class="shuffle-button"
+              i18n-aria-label="shuffle-options-button|Label for toggle button that shuffle options"
+              i18n-matTooltip="shuffle-options-tooltip|Tooltip for toggle button that shuffle options" mat-icon-button
+              matTooltip="Shuffle">
+        <mat-icon>shuffle</mat-icon>
+      </button>
+      <mat-checkbox (change)="onIsAdvancedChange($event)"
+                    [(ngModel)]="(isAdvanced)"
+                    [disabled]="(optionsService.isSpinning | async) ?? false"
+                    class="options-list-advanced-checkbox small"
+                    i18n="advanced-mode|Advanced checkbox label">Advanced mode
+      </mat-checkbox>
+    </div>
+    <div *ngIf="(optionsService.isAdvanced | async)" class="options-list-items">
+      <app-card-options-advanced-list [options]="options"></app-card-options-advanced-list>
+    </div>
+    <div *ngIf="(optionsService.isAdvanced | async) === false" class="options-list-items">
+      <app-card-textarea></app-card-textarea>
+    </div>
+  </div>
+
+  <app-card-option-advanced-add *ngIf="(optionsService.isAdvanced | async)"></app-card-option-advanced-add>
+</div>

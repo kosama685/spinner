@@ -1,0 +1,51 @@
+:host {
+  &:not(:last-of-type) {
+    margin-bottom: 1vh;
+  }
+}
+
+.option-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  // font-family: "Vibur", cursive;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+
+  .dd-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .title {
+    //overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .dd-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+
+    .ngx-color-picker {
+      border: none;
+      width: 30px;
+      height: 32px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 1vw;
+    }
+  }
+}

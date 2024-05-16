@@ -1,0 +1,9 @@
+<button (click)="onAdd()" [disabled]="(optionsService.isSpinning | async) || (optionsService.isAddDisabled | async)"
+        aria-label="Add new wheel option" class="add-wheel-option"
+        color="primary"
+        i18n-aria-label="add-new-wheel-option-aria-label"
+        i18n-matTooltip="add-new-wheel-option-tooltip"
+        mat-fab
+        matTooltip="Add new option">
+  <mat-icon>add</mat-icon>
+</button>

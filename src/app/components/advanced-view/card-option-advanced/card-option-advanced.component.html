@@ -1,0 +1,59 @@
+<div class="option-row {{(isEditing | async) ? 'edit' : ''}}">
+  <div cdkDrag class="dd-container">
+    <button (click)="onDragAndDrop()"
+            [disabled]="(optionsService.isDisabled | async) || (optionsService.isSpinning | async)"
+            aria-label="Move around wheel option"
+            class="dd-button" i18n-aria-label="dd-wheel-option-aria-label">
+      <mat-icon>
+        drag_indicator
+      </mat-icon>
+    </button>
+
+    <div (dblclick)="setEditView()" *ngIf="(isEditing | async) === false" class="title">{{title}}</div>
+  </div>
+  <app-card-option-advanced-edit (closeEdit)="setNormalView()" (save)="save($event)"
+                                 *ngIf="(isEditing | async)"
+                                 [title]="title"></app-card-option-advanced-edit>
+
+  <div *ngIf="(isEditing | async) === false" class="actions">
+    <div
+      i18n-matTooltip="color-picker-tootlip"
+      matTooltip="Change color">
+      <input (colorPickerChange)="onColorChange($event);backgroundColor=$event"
+             [colorPicker]="backgroundColor" [disabled]="(optionsService.isDisabled | async) || (optionsService.isSpinning | async)"
+             [style.background]="backgroundColor"
+             class="ngx-color-picker"
+      />
+    </div>
+
+    <button (click)="onEdit()" [disabled]="(optionsService.isDisabled | async) || (optionsService.isSpinning | async)"
+            aria-label="Edit wheel option"
+            color=""
+            i18n-aria-label="edit-wheel-option-aria-label"
+            i18n-matTooltip="edit-wheel-option-aria-tooltip"
+            mat-icon-button
+            matTooltip="Rename">
+      <mat-icon>edit</mat-icon>
+    </button>
+    <button (click)="onDuplicate()"
+            [disabled]="(optionsService.isDisabled | async) || (optionsService.isAddDisabled | async) || (optionsService.isSpinning | async)"
+            aria-label="Duplicate option"
+            color=""
+            i18n-aria-label="duplicate-wheel-option-aria-label"
+            i18n-matTooltip="duplicate-wheel-option-aria-tooltip"
+            mat-icon-button
+            matTooltip="Duplicate">
+      <mat-icon>difference</mat-icon>
+    </button>
+    <button (click)="onRemove()"
+            [disabled]="(optionsService.isDisabled | async) || (optionsService.isRemoveDisabled | async) || (optionsService.isSpinning | async)"
+            aria-label="Delete wheel option"
+            color=""
+            i18n-aria-label="delete-wheel-option-aria-label"
+            i18n-matTooltip="delete-wheel-option-aria-tooltip"
+            mat-icon-button
+            matTooltip="Remove">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </div>
+</div>
