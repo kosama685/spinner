@@ -13,7 +13,7 @@ export class WheelOptionList extends Array<WheelOption> {
 
   static DEFAULT_OPTIONS: WheelOption[] = [
     {
-      title: $localize `:first-default-option-label:The Address 15%`,
+      title: $localize`:first-default-option-label:The Address 15%`,
       backgroundColor: DEFAULT_COLORS[0 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[0 % DEFAULT_TEXT_COLORS.length],
     },
@@ -33,7 +33,7 @@ export class WheelOptionList extends Array<WheelOption> {
       textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize `:third-default-option-label:Mirot Hotel 25%`,
+      title: $localize`:third-default-option-label:Mirot Hotel 25%`,
       backgroundColor: DEFAULT_COLORS[2 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[2 % DEFAULT_TEXT_COLORS.length],
     },
@@ -48,7 +48,7 @@ export class WheelOptionList extends Array<WheelOption> {
       textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize `:third-default-option-label:Mirot Hotel Free night`,
+      title: $localize`:third-default-option-label:Mirot Hotel Free night`,
       backgroundColor: DEFAULT_COLORS[2 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[2 % DEFAULT_TEXT_COLORS.length],
     },
