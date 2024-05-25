@@ -1,6 +1,6 @@
 [build]
   command="ng build"
-  publish="dist/decision-wheel-angular/browser/en-US"
+  publish="dist/decision-wheel-angular/browser"
   
 [[redirects]]
   from = "/*"
