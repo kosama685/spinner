@@ -1,0 +1,15 @@
+[build]
+  command="ng build"
+  publish="dist/decision-wheel-angular/browser/en-US"
+  
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[plugins]]
+  package = "netlify-plugin-cypress"
+  [plugins.inputs.postBuild]
+    enable = true
+  [plugins.inputs]
+    enable = false
