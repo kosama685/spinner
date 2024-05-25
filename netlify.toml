@@ -1,5 +1,5 @@
 [build]
-  command="ng build"
+  command="npm install && ng build --prod && npm run cypress:run"
   publish="dist/decision-wheel-angular/browser"
   
 [[redirects]]
