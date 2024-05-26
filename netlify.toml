@@ -1,0 +1,15 @@
+[build]
+  command="npm install && ng build --prod && npm run cypress:run"
+  publish="dist/decision-wheel-angular/browser"
+  
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[plugins]]
+  package = "netlify-plugin-cypress"
+  [plugins.inputs.postBuild]
+    enable = true
+  [plugins.inputs]
+    enable = false

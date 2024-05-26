@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --localize",
+    "build": "ng build --configuration=production",
     "watch": "ng build --localize --watch --configuration development",
     "test": "ng test",
     "test-headless": "ng test --watch false --browsers ChromeHeadless",
