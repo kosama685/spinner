@@ -10,7 +10,7 @@ publish = "dist/browser"
 
 from = "/*"
 
-to = "/index.html"
+to = "dist/browser/en-US/index.html"
 
 status = 200
 
