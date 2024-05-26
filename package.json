@@ -9,7 +9,8 @@
     "test": "ng test",
     "test-headless": "ng test --watch false --browsers ChromeHeadless",
     "lint": "ng lint",
-    "translate": "ng extract-i18n --output-path src/locale --out-file messages.en.xlf"
+    "translate": "ng extract-i18n --output-path src/locale --out-file messages.en.xlf",
+    "build:prod": "ng build --configuration=production"
   },
   "private": true,
   "dependencies": {
