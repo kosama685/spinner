@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/components/full-screen/C:/Users/Usama/Pictures/decision-wheel-angular-main/decision-wheel-angular-main/spinner/src/app/components/full-screen/full-toggle.component.less"],
-  "sourcesContent": [":host {\n  position: absolute;\n  top: 13%;\n  right: 5%;\n  z-index: 10000;\n}\n\n\n"],
-  "mappings": ";AAAA;AACE,YAAA;AACA,OAAA;AACA,SAAA;AACA,WAAA;;",
-  "names": []
-}

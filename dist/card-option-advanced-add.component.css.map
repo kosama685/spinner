@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/components/advanced-view/card-option-advanced-add/C:/Users/Usama/Pictures/decision-wheel-angular-main/decision-wheel-angular-main/spinner/src/app/components/advanced-view/card-option-advanced-add/card-option-advanced-add.component.less"],
-  "sourcesContent": [":host {\n  position: absolute;\n  display: flex;\n  align-self: center;\n  bottom: -45px;\n  width: 70px;\n  height: 70px;\n}\n"],
-  "mappings": ";AAAA;AACE,YAAA;AACA,WAAA;AACA,cAAA;AACA,UAAA;AACA,SAAA;AACA,UAAA;;",
-  "names": []
-}

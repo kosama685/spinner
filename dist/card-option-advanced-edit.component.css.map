@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/components/advanced-view/card-option-advanced-edit/C:/Users/Usama/Pictures/decision-wheel-angular-main/decision-wheel-angular-main/spinner/src/app/components/advanced-view/card-option-advanced-edit/card-option-advanced-edit.component.less"],
-  "sourcesContent": [":host {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  flex: 1;\n\n  button:not(:last-child) {\n    margin-right: 1vw;\n  }\n\n  form {\n    display: flex;\n    flex: 1;\n    margin-right: 2vw;\n  }\n\n  mat-form-field {\n    width: 100%;\n    height: 100%;\n    font-family: \"Vibur\", cursive;\n    font-size: 1.5rem;\n\n\n  }\n}\n\n:root {\n\n  .mat-mdc-form-field-subscript-wrapper {\n    display: none;\n  }\n}\n"],
-  "mappings": ";AAAA;AACE,WAAA;AACA,kBAAA;AACA,mBAAA;AACA,eAAA;AACA,QAAA;;AALF,MAOE,MAAM,KAAI;AACR,gBAAA;;AARJ,MAWE;AACE,WAAA;AACA,QAAA;AACA,gBAAA;;AAdJ,MAiBE;AACE,SAAA;AACA,UAAA;AACA,eAAa,OAAA,EAAA;AACb,aAAA;;AAMJ,MAEE,CAAA;AACE,WAAA;;",
-  "names": []
-}
