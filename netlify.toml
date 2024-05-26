@@ -4,7 +4,7 @@ base = "."
 
 command = "npm run build:prod"
 
-publish = "dist/browser/en-US"
+publish = "dist/browser"
 
 [[redirects]]
 
