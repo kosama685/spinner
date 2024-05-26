@@ -5,9 +5,9 @@ import { BehaviorSubject, Subject, take } from 'rxjs';
 export const MIN_OPTIONS_NUMBER = 2;
 export const MAX_OPTIONS_NUMBER = 10000;
 
-const DEFAULT_COLORS = ['#16ccb6', 'beige'];
+const DEFAULT_COLORS = ['#16ccb6', '#f5f5dc'];
 const DEFAULT_TEXT_COLORS = ['white', '#16ccb6'];
-
+const emoji = ['&#128577;'];
 export class WheelOptionList extends Array<WheelOption> {
   static DEFAULT_NEW_OPTION_TITLE = $localize`:new-option-title:New`;
 
@@ -18,45 +18,65 @@ export class WheelOptionList extends Array<WheelOption> {
       textColor: DEFAULT_TEXT_COLORS[0 % DEFAULT_TEXT_COLORS.length],
     },
     {
+      
       title: $localize`:second-default-option-label:Mirot Hotel 15%`,
       backgroundColor: DEFAULT_COLORS[1 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[1 % DEFAULT_TEXT_COLORS.length],
     },
+
     {
       title: $localize`:third-default-option-label:Karim Makka 15%`,
       backgroundColor: DEFAULT_COLORS[2 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[2 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize`:fourth-default-option-label:The Address 25%`,
-      backgroundColor: DEFAULT_COLORS[3 % DEFAULT_COLORS.length],
-      textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length],
+      title: $localize`:fourth-default-option-label:Try Again 😟`,
+      backgroundColor: DEFAULT_COLORS[1 % DEFAULT_COLORS.length],
+      textColor: DEFAULT_TEXT_COLORS[1 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize`:third-default-option-label:Mirot Hotel 25%`,
+      title: $localize`:first-default-option-label:The Address 25%`,
       backgroundColor: DEFAULT_COLORS[2 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[2 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize`:fourth-default-option-label:Karim Makka 25%`,
-      backgroundColor: DEFAULT_COLORS[3 % DEFAULT_COLORS.length],
-      textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length],
+      title: $localize`:second-default-option-label:Mirot Hotel 25%`,
+      backgroundColor: DEFAULT_COLORS[1 % DEFAULT_COLORS.length],
+      textColor: DEFAULT_TEXT_COLORS[1 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize`:fourth-default-option-label:The Address Free night`,
-      backgroundColor: DEFAULT_COLORS[3 % DEFAULT_COLORS.length],
-      textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length],
-    },
-    {
-      title: $localize`:third-default-option-label:Mirot Hotel Free night`,
+      title: $localize`:third-default-option-label:Karim Makka 25%`,
       backgroundColor: DEFAULT_COLORS[2 % DEFAULT_COLORS.length],
       textColor: DEFAULT_TEXT_COLORS[2 % DEFAULT_TEXT_COLORS.length],
     },
     {
-      title: $localize`:fourth-default-option-label:Karim Makka Free night`,
-      backgroundColor: DEFAULT_COLORS[3 % DEFAULT_COLORS.length],
-      textColor: DEFAULT_TEXT_COLORS[3 % DEFAULT_TEXT_COLORS.length],
+      title: $localize`:fourth-default-option-label:Try Again 😟` ,
+      backgroundColor: DEFAULT_COLORS[1 % DEFAULT_COLORS.length],
+      textColor: DEFAULT_TEXT_COLORS[1 % DEFAULT_TEXT_COLORS.length],
     },
+    {
+      title: $localize`:first-default-option-label:The Address Free night`,
+      backgroundColor: DEFAULT_COLORS[2 % DEFAULT_COLORS.length],
+      textColor: DEFAULT_TEXT_COLORS[2 % DEFAULT_TEXT_COLORS.length],
+    },
+    {
+      title: $localize`:second-default-option-label:Mirot Hotel Free night`,
+      backgroundColor: DEFAULT_COLORS[1 % DEFAULT_COLORS.length],
+      textColor: DEFAULT_TEXT_COLORS[1 % DEFAULT_TEXT_COLORS.length],
+    },
+
+    {
+      title: $localize`:third-default-option-label:Karim Makka Free night`,
+      backgroundColor: DEFAULT_COLORS[2 % DEFAULT_COLORS.length],
+      textColor: DEFAULT_TEXT_COLORS[2 % DEFAULT_TEXT_COLORS.length],
+    },
+    {
+      title: $localize`:fourth-default-option-label:Try Again 😟`,
+      backgroundColor: DEFAULT_COLORS[1 % DEFAULT_COLORS.length],
+      textColor: DEFAULT_TEXT_COLORS[1 % DEFAULT_TEXT_COLORS.length],
+    },
+
+
   ];
 
   constructor(...options: WheelOption[]) {
