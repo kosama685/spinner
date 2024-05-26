@@ -292,6 +292,30 @@
         </context-group>
         <note priority="1" from="description">fourth-default-option-label</note>
       </trans-unit>
+         <trans-unit id="1665856768210958652" datatype="html">
+        <source>Try Again 😟</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description">fourth-default-option-label</note>
+      </trans-unit>
+          <trans-unit id="1665856768210958652" datatype="html">
+        <source>Try Again 😟</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <note priority="1" from="description">fourth-default-option-label</note>
+      </trans-unit>
+      <trans-unit id="1665856768210958652" datatype="html">
+        <source>Try Again 😟</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/options.service.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <note priority="1" from="description">fourth-default-option-label</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
